@@ -1,20 +1,20 @@
 {
-  "name": "@oldendev/crud",
-  "version": "0.0.0",
+  "name": "@oldendev/plugins",
+  "version": "0.1.0",
   "description": "CRUD plugin for Metarhia impress, metasql",
-  "main": "crud.js",
+  "main": "plugins.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/georgolden/crud.git"
+    "url": "git+https://github.com/georgolden/plugin.git"
   },
   "readmeFilename": "README.md",
-  "types": "types/crud.d.ts",
+  "types": "types/plugins.d.ts",
   "author": "Georg Oldenburger <georgoldenb@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/georgolden/crud/issues"
+    "url": "https://github.com/georgolden/plugin/issues"
   },
-  "homepage": "https://github.com/georgolden/crud#readme",
+  "homepage": "https://github.com/georgolden/plugin#readme",
   "scripts": {
     "test": "npm run lint && npm run types && metatests test/",
     "types": "tsc -p types/tsconfig.json",
